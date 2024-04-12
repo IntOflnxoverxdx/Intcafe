@@ -115,6 +115,7 @@ header .container{
 }
 
 .menu-ch__item{
+    margin: 5px 0 5px 14px;
     display: inline-block;
     margin-left: 14px;
     width: fit-content;
@@ -585,12 +586,9 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    .geo,.cart{
+    .geo,.cart,.login{
         margin-top: 5px;
         margin-left: 0;
-    }
-    .login{
-        margin-left:15px;
     }
     .menu{
         grid-template-columns: repeat(1,100%);
