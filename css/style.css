@@ -516,7 +516,7 @@ footer{
 
 @media screen and (max-width:1250px){
     .container{
-        width: 80%;
+        width: 95%;
     }
     .menu{
         grid-template-columns: repeat(3,285px);
