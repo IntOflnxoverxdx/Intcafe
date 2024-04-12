@@ -377,8 +377,9 @@ footer{
     transform: translateX(-50%);
     width: calc(100% - 30px);
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 #order-btn,#login-btn{
     width: 100%;
@@ -530,11 +531,6 @@ footer{
     }
     .orders{
         grid-template-columns: repeat(2,49%);
-    }
-    .order__bottom{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
     .info{
         height: fit-content;
