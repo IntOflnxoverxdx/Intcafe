@@ -586,9 +586,12 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    .geo,.cart,.login{
+    .geo,.cart{
         margin-top: 5px;
         margin-left: 0;
+    }
+    .login{
+        margin-left: 20px;
     }
     .menu{
         grid-template-columns: repeat(1,100%);
