@@ -14,6 +14,6 @@ if (userlocation != null){
 }else{
     setValue("Уссурийск")
 }
-locButton.onclick = ()=>{
+locButton.onchange = ()=>{
     setValue(locButton.value)
 }
