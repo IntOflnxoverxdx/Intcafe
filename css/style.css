@@ -574,6 +574,9 @@ footer{
         align-items: center;
         justify-content: center;
     }
+    .cart__order{
+        margin-top: 20px;
+    }
     .cart__wrapper h2{
         margin-bottom: 20px;
     }
